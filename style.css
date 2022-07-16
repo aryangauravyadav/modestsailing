@@ -20,19 +20,6 @@
 /* 1. General */
 :root {
   --font: "Martel";
-  --background-color: #ffffff;
-  --light-alt-color: #e7a0a0;
-  --dark-alt-color: #9e0404;
-  --link-color: #740303;
-}
-
-::selection {
-  background-color: var(--light-alt-color);
-}
-
-:target {
-  background-color: var(--dar-alt-color);
-  transition: all 0.2s linear;
 }
 
 html {
@@ -41,7 +28,6 @@ html {
 
 body {
   font-family: var(--font);
-  background-color: var(--bacground-color);
 }
 
 /* 2. Navbar */
